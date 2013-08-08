@@ -11,14 +11,14 @@
 <?php
 
 	//链接Mysql
-	$link = mysql_connect("rdsmqz7rbz67rbm.mysql.rds.aliyuncs.com" , "db86w70r3yd4p04f" , "2735xuezu");
+	$link = mysql_connect("test.rzx.me" , "root" , "2735xuezu");
 
 	if(!$link){
 		echo "与数据库链接失败；";
 		exit;
 	}
 	//选择数据库
-	mysql_select_db("db86w70r3yd4p04f");
+	mysql_select_db("ventuz");
 	mysql_query("set names utf-8");
 ?>
 
@@ -111,7 +111,7 @@ class wechatCallbackapiTest
 			
 			
 			//数据库写入信息
-			$sql="insert into test(name,time) values('$contentStr','$bbbbb')";
+			$sql="insert into test(name,time) values('$contentStr','$time')";
 			$result=mysql_query($sql);
 			mysql_close();
 
