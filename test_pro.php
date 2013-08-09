@@ -42,7 +42,7 @@ class wechatCallbackapiTest
 							<Content><![CDATA[%s]]></Content>
 							<FuncFlag>0</FuncFlag>
 							</xml>"; 
-                                 //加载图文模版
+                                 //加载图文模版!
 				$picTpl = "<xml>
 								 <ToUserName><![CDATA[%s]]></ToUserName>
 								 <FromUserName><![CDATA[%s]]></FromUserName>
