@@ -11,7 +11,7 @@
 <?php
 	header("content-Type: text/html; charset=Utf-8"); 
 	//链接Mysql
-	$link = mysql_connect("test.rzx.me" , "root" , "2735xuezu");
+	$link = mysql_connect("test.rzx.me" , "root" , "27****zu");
 
 	if(!$link){
 		echo "与数据库链接失败；";
