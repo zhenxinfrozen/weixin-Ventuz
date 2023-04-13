@@ -11,7 +11,7 @@
 <?php
 
 	//链接Mysql
-	$link = mysql_connect("test.rzx.me" , "root" , "2735xuezu");
+	$link = mysql_connect("abc.me" , "root" , "********");
 
 	if(!$link){
 		echo "与数据库链接失败；";
